@@ -15,6 +15,11 @@ public class App {
 
         output(Double.toString(circ.Area()));
 
+        output(Double.toString(areaDiff(rect,tria)));
+
+    }
+    public static  double areaDiff(Shape r,Shape t){
+        return r.Area() - t.Area();
     }
 
   

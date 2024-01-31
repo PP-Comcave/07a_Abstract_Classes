@@ -4,7 +4,17 @@ public class App {
     
     public static void main(String[] args) {
      
-       
+        Rectangle rect = new Rectangle(22,55);
+        Triangle tria = new Triangle(22,55);
+        Circle circ = new Circle(22);
+
+
+        output(Double.toString(rect.Area()));
+
+        output(Double.toString(tria.Area()));
+
+        output(Double.toString(circ.Area()));
+
     }
 
   
